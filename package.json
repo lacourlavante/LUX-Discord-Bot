@@ -1,19 +1,23 @@
 {
-  "name": "nodejs",
+  "name": "lux-discord-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discord bot powered by OpenAI for personalized interactions.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["discord", "bot", "openai", "lux"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^22.13.11",
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.7",
     "openai": "^4.91.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
